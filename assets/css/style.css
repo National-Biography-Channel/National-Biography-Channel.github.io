@@ -1,3 +1,9 @@
+/***************************************************************************************
+******************************AUTHOR - CHAYAN PANT**************************************
+****************************************************************************************/
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap');
 
 
@@ -237,7 +243,7 @@ h2.section-title-heading {
 
 /* ============ Social media =============== */
 
-#download {
+#sm {
     background-image: linear-gradient(to right, rgba(108, 180, 238, 0.72), rgba(49, 140, 231, 0.92)), url('../img/download.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -245,7 +251,7 @@ h2.section-title-heading {
     position: relative;
 }
 
-#download::before {
+#sm::before {
     content: '';
     position: absolute;
     background-color: #eee;
@@ -258,7 +264,7 @@ h2.section-title-heading {
     left: 0;
 }
 
-#download .download-title h2 {
+#sm .sm-title h2 {
     padding-top: 10rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -266,7 +272,7 @@ h2.section-title-heading {
     font-size: 1.8rem;
 }
 
-#download .download-title p {
+#sm .sm-title p {
     color: #ffffff;
     text-align: center;
     font-size: 1.2rem;
@@ -274,11 +280,11 @@ h2.section-title-heading {
     margin-top: 2.5rem;
 }
 
-#download .download-title .download-btns {
+#sm .sm-title .sm-btns {
     margin-top: 4rem;
 }
 
-#download .download-title .download-btns a {
+#sm .sm-title .sm-btns a {
     display: inline-block;
     border: 2px solid #ffffff;
     border-radius: 2rem;
@@ -288,7 +294,7 @@ h2.section-title-heading {
     padding: .8rem 2rem;
 }
 
-#download .download-title .download-btns a:hover {
+#sm .sm-title .sm-btns a:hover {
     background-color: #ffffff;
     color: var(--main-accent-color);
     border: 2px solid #ffffff;
