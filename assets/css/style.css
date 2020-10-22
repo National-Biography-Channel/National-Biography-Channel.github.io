@@ -279,6 +279,7 @@ h2.section-title-heading {
 }
 
 #download .download-title .download-btns a {
+    display: inline-block;
     border: 2px solid #ffffff;
     border-radius: 2rem;
     color: #ffffff;
