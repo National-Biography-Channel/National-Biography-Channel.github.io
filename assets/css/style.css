@@ -374,6 +374,23 @@ h2.section-title-heading {
 #contact .contact-details ul li i {
     color: rgba(0,172,217, 0.62);
 }
+/* not currently in use */
+#status{
+    z-index: 1;
+    padding:5px 10px;
+    margin: auto;
+    border-radius: 9px;
+    visibility: hidden;
+}
+
+#status.success{
+    background-color: lightgreen;
+}
+
+#status.error{
+    background-color: crimson;
+    color: white;
+}
 
 /* ============ Footer =============== */
 #footer {
