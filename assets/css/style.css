@@ -51,6 +51,14 @@ h1 {
     border: 2px solid #ffffff;
 }
 
+/* ============ parallax ================ */
+
+.parallax{
+    min-height: 500px;
+    background: transparent;
+}
+
+
 /* Section title */
 .section-title {
     position: relative;
@@ -114,8 +122,8 @@ h2.section-title-heading {
     background-image: linear-gradient(to right, rgba(108, 180, 238, 1) , rgba(49, 140, 231, 0.85) , rgba(0, 113, 197, 0.9) ), url('../img/bg-header.PNG');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
     position: relative;
 }
 
